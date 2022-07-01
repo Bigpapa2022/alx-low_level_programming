@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(base_16);
 	}
-llputchar ('\n');
+	putchar ('\n');
 
 	return (0);
 }
