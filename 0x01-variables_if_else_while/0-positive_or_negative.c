@@ -1,11 +1,13 @@
-#include<stdlib.h>
-#include<time.h>
-#include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
 /**
- *main - Determine if a random number is positive, negative or zero.
+ *main -> Entry point
  *Return: End of program
+ *(Program by Hayzed)
  */
-int main(void) 
+int main(void)
 {
 	int n;
 
@@ -13,15 +15,16 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is %s\n", n, "positive");
+		printf("%d is positive\n", n);
 	}
-	else if (n == 0)
+	if (n == 0)
 	{
-		printf("%d is %s\n", n, "zero");
-       	}
-	else if (n < 0)
+		printf("%d is zero\n", n);
+	}
+	if (n < 0)
+
 	{
-		printf("%d is %s\n", n, "negative");
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
