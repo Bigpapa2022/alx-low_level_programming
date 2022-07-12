@@ -17,6 +17,6 @@ c = str;
 for (m = 0; c[m]; m++)
 {
 putchar(c[m]);
-putchar(\n);
+putchar('\n');
 }
 }
