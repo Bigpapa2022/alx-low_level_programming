@@ -16,6 +16,7 @@ c = str;
 
 for (m = 0; c[m]; m++)
 {
-printf("%d\n", c[m]);
+printf("%c", c[m]);
+printf("\n");
 }
 }
